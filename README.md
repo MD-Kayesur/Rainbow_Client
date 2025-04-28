@@ -12,3 +12,7 @@ npm install localforage match-sorter sort-by
 npm install tailwindcss @tailwindcss/vite
 npm i -D daisyui@latest
 ```
+### using React Icon in project
+```bash
+npm install react-icons --save
+```
