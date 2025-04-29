@@ -11,7 +11,8 @@ import myImage8 from "../../assets/vK8ECGL27BFN7tScchchrKWCgPA.avif";
 import { Link, NavLink } from "react-router-dom";
 const Banner = () => {
   return (
-    <div className="relative bg-blue-300  ">
+    // creat a banner with more pic as baground img
+    <div className="relative bg-gradient-to-b from-blue-500 to-blue-200 ">
       <div>
       <div className="absolute left-10 top-0">
           <img className="w-70 " src={myImage8} alt="" />
