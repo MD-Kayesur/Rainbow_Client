@@ -16,3 +16,12 @@ npm i -D daisyui@latest
 ```bash
 npm install react-icons --save
 ```
+## Page RElated Component 
+### Home pages All  Components  Name is under line by line
+
+#### 1. Banner
+#### 2. RaunbowExtention
+#### 3. Built_for
+#### 4. Keybord_Sortcart
+
+  
