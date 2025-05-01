@@ -32,10 +32,10 @@ export const Hundreds_wallets = () => {
             {
                 actions?.map(data=> <div
                     
-                    className="flex flex-col items-center justify-center mx-6"
+                    className="flex flex-col items-center justify-center    mx-6"
                   >
                     <video
-                      className="w-[300px] h-[500px] object-cover rounded-2xl shadow-lg"
+                      className="w-[300px] h-[500px] object-cover rounded-2xl  shadow-lg"
                       src={data.video}
                       controls
                       autoPlay

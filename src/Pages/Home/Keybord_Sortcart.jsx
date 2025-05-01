@@ -53,7 +53,7 @@ const Keybord_Sortcart = () => {
         </div>
 
         {/* Buttons */}
-        <div className="flex gap-4 justify-center items-center md:-mt-20 p-6">
+        <div className="flex gap-4 justify-center items-center md:-mt-20 p-6 ">
           {actions.map((action, index) => {
             const isActive = activeKey === action.key;
             return (
@@ -63,9 +63,9 @@ const Keybord_Sortcart = () => {
                   setActiveKey(action.key);
                   setSelectedVideo(action.video); // Change video
                 }}
-                className={`cursor-pointer flex flex-col p-4 w-50 h-24 rounded-2xl
-                  backdrop-blur-sm bg-white/40 border border-white/10 transition-all
-                  ${isActive ? "border-black bg-white text-black shadow-xl" : "text-gray-700"}`}
+                className={`cursor-pointer flex flex-col p-3 w-50 h-24 rounded-2xl   
+                  backdrop-blur-sm bg-white/40 border-white/10 transition-all
+                  ${isActive ? " border-red-300 bg-white  border-4  text-black shadow-xl" : "text-gray-700"}`}
               >
                 <div
                   className={`w-10 h-10 flex items-center justify-center rounded-md text-xl font-bold

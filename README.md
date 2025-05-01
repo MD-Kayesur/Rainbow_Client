@@ -18,9 +18,16 @@ npm i -D daisyui@latest
 npm install react-icons --save
 ```
 
-### using Maequee in this Projects Hundreds_wallets  components
+### using Maequee in this Projects ''Hundreds_wallets''  components
 ```bash
 npm install react-fast-marquee --save 
+```
+
+
+### using framer-motion in this Projects ''All_chains''  components
+```bash
+npm install framer-motion
+ 
 ```
 
 
@@ -32,5 +39,6 @@ npm install react-fast-marquee --save
 #### 3. Built_for
 #### 4. Keybord_Sortcart
 #### 4. Hundreds_wallets
+#### 4. All_chains
 
   
