@@ -24,7 +24,7 @@ const Keybord_Sortcart = () => {
   ];
 
   return (
-    <div className="bg-gradient-to-b from-blue-200 to-orange-300">
+    <div className="bg-gradient-to-b from-blue-200 to-orange-200">
       <div className="w-11/12 mx-auto">
 
         {/* Top Section */}
@@ -63,17 +63,17 @@ const Keybord_Sortcart = () => {
                   setActiveKey(action.key);
                   setSelectedVideo(action.video); // Change video
                 }}
-                className={`cursor-pointer flex flex-col p-4 w-56 h-24 rounded-2xl
+                className={`cursor-pointer flex flex-col p-4 w-50 h-24 rounded-2xl
                   backdrop-blur-sm bg-white/40 border border-white/10 transition-all
-                  ${isActive ? "border-black bg-white text-black shadow-md" : "text-gray-700"}`}
+                  ${isActive ? "border-black bg-white text-black shadow-xl" : "text-gray-700"}`}
               >
                 <div
                   className={`w-10 h-10 flex items-center justify-center rounded-md text-xl font-bold
-                    ${isActive ? "bg-red-100 text-red-500 border border-red-300" : "bg-white/70 text-gray-500 border border-gray-200"}`}
+                    ${isActive ? "bg-red-100 text-red-500 border-2 border-red-300 " : "bg-white/70 text-gray-500 border border-gray-200"}`}
                 >
                   {action.key}
                 </div>
-                <span className="mt-2 text-sm font-semibold">{action.label}</span>
+                <span className="mt-2 text-xl font-semibold">{action.label}</span>
               </div>
             );
           })}
