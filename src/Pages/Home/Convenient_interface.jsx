@@ -8,7 +8,7 @@ import img5 from "../../assets/Convenient_interface/HLFjtkh7H13XNvrotUtSfFeUvA.a
 import img6 from "../../assets/Convenient_interface/nCn8ZTvrjnWD8ABEoHmmYFSqc.avif";
 const Convenient_interface = () => {
   return (
-    <div className=" bg-gradient-to-b from-blue-100 to-bash-300 ">
+    <div className=" bg-gradient-to-b from-blue-100 to-yellow-100 ">
       <div className="w-11/12 mx-auto">
         <div>
           <Header

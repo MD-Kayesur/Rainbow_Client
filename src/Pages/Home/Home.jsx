@@ -6,6 +6,7 @@ import Keybord_Sortcart from "./Keybord_Sortcart";
 import { Hundreds_wallets } from "./hundreds_wallets";
 import All_chains from "./All_chains";
 import Convenient_interface from "./convenient_interface";
+import Swap_Expariance from "./Swap_Expariance";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <Hundreds_wallets></Hundreds_wallets>
       <All_chains></All_chains>
       <Convenient_interface></Convenient_interface>
+      <Swap_Expariance></Swap_Expariance>
     </div>
   );
 };
