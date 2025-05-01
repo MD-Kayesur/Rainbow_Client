@@ -9,6 +9,7 @@ import myImage6 from "../../assets/UFvPlymoCJQRWIcq6OuiAEro.avif";
 import myImage7 from "../../assets/WdqwfLzM7511b0vTKJhyOovVw8.avif";
 import myImage8 from "../../assets/vK8ECGL27BFN7tScchchrKWCgPA.avif";
 import { Link, NavLink } from "react-router-dom";
+import Header from "../../Components/Header";
 const Banner = () => {
   return (
     // creat a banner with more pic as baground img
@@ -46,9 +47,10 @@ const Banner = () => {
         <div className="hero-content text-center">
           <div className="">
             <div>
-              <h1 className="md:text-7xl text-4xl mx-auto  md:w-9/12 font-bold coiny-regular">
+              {/* <h1 className="md:text-7xl text-4xl mx-auto  md:w-9/12 font-bold coiny-regular">
                 Experience Crypto in Color
-              </h1>
+              </h1> */}
+              <Header className='md:text-7xl text-4xl mx-auto  md:w-9/12' title={'Experience Crypto in Color'}></Header>
               <p className="py-6 md:text-4xl text-2xl font-bold ">
                 Fun, powerful, and secure wallets for everyday use
               </p>
