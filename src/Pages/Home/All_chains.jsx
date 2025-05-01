@@ -23,7 +23,8 @@ const All_chains = () => {
   return (
     <div className="relative min-h-screen  bg-gradient-to-b from-purple-300 to-blue-100 overflow-hidden">
 
-      <Header
+   <div className="w-11/12 mx-auto">
+   <Header
         className="text-5xl py-5 w-[500px] text-start"
         title={"All the chains that matter in one place"}></Header>
   <div className="relative   flex items-center justify-center  overflow-hidden">
@@ -57,6 +58,7 @@ const All_chains = () => {
         <img className="w-[300px] h-[500px] " src={icon12} alt="" />
       </div>
     </div>
+   </div>
     </div>
   );
 };
