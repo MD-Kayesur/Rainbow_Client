@@ -7,6 +7,7 @@ import { Hundreds_wallets } from "./hundreds_wallets";
 import All_chains from "./All_chains";
 import Convenient_interface from "./convenient_interface";
 import Swap_Expariance from "./Swap_Expariance";
+import Your_Pokets from "./Your_Pokets";
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
       <All_chains></All_chains>
       <Convenient_interface></Convenient_interface>
       <Swap_Expariance></Swap_Expariance>
+      <Your_Pokets></Your_Pokets>
     </div>
   );
 };

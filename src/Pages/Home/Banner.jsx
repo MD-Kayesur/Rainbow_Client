@@ -1,13 +1,13 @@
 import React from "react";
 import { FiDivideCircle } from "react-icons/fi";
-import myImage1 from "../../assets/Clud.avif";
-import myImage2 from "../../assets/hU2QG6d9scwuab7no8Kzy4G4 (1).avif";
-import myImage3 from "../../assets/hU2QG6d9scwuab7no8Kzy4G4.avif";
-import myImage4 from "../../assets/jiid6nfu78vtDFgJz0L0Ga87uFg.avif";
-import myImage5 from "../../assets/Pn7vfzLLQ2Ylyc0MS2jmR64xKlc.avif";
-import myImage6 from "../../assets/UFvPlymoCJQRWIcq6OuiAEro.avif";
-import myImage7 from "../../assets/WdqwfLzM7511b0vTKJhyOovVw8.avif";
-import myImage8 from "../../assets/vK8ECGL27BFN7tScchchrKWCgPA.avif";
+import myImage1 from "../../assets/Banner/Clud.avif";
+import myImage2 from "../../assets/Banner/hU2QG6d9scwuab7no8Kzy4G4 (1).avif";
+import myImage3 from "../../assets/Banner/hU2QG6d9scwuab7no8Kzy4G4.avif";
+import myImage4 from "../../assets/Banner/jiid6nfu78vtDFgJz0L0Ga87uFg.avif";
+import myImage5 from "../../assets/Banner/Pn7vfzLLQ2Ylyc0MS2jmR64xKlc.avif";
+import myImage6 from "../../assets/Banner/UFvPlymoCJQRWIcq6OuiAEro.avif";
+import myImage7 from "../../assets/Banner/WdqwfLzM7511b0vTKJhyOovVw8.avif";
+import myImage8 from "../../assets/Banner/vK8ECGL27BFN7tScchchrKWCgPA.avif";
 import { Link, NavLink } from "react-router-dom";
 import Header from "../../Components/Header";
 const Banner = () => {

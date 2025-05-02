@@ -1,16 +1,16 @@
 import React from "react";
 import Header from "../../Components/Header";
 import { motion, useScroll, useTransform } from "framer-motion";
-import icon1 from "../../assets/crome.png"; // নিজস্ব আইকন ইউজ করো
-import icon2 from "../../assets/fireFox.jpg"; // নিজস্ব আইকন ইউজ করো
-import icon3 from "../../assets/-edge-.png"; // নিজস্ব আইকন ইউজ করো
-import icon4 from "../../assets/crome.png"; // নিজস্ব আইকন ইউজ করো
-import icon5 from "../../assets/fireFox.jpg"; // নিজস্ব আইকন ইউজ করো
- import icon6 from "../../assets/fireFox.jpg"; // নিজস্ব আইকন ইউজ করো
-import icon7 from "../../assets/fireFox.jpg"; // নিজস্ব আইকন ইউজ করো
-import icon8 from "../../assets/fireFox.jpg"; // নিজস্ব আইকন ইউজ করো
-import icon9 from "../../assets/fireFox.jpg"; // নিজস্ব আইকন ইউজ করো
-import icon10 from "../../assets/fireFox.jpg"; // নিজস্ব আইকন ইউজ করো
+import icon1 from "../../assets//BuildFor/-edge-.png"; // নিজস্ব আইকন ইউজ করো
+import icon2 from "../../assets//BuildFor/-edge-.png"; // নিজস্ব আইকন ইউজ করো
+import icon3 from "../../assets//BuildFor/-edge-.png"; // নিজস্ব আইকন ইউজ করো
+import icon4 from "../../assets//BuildFor/-edge-.png"; // নিজস্ব আইকন ইউজ করো
+import icon5 from "../../assets//BuildFor/-edge-.png"; // নিজস্ব আইকন ইউজ করো
+ import icon6 from "../../assets//BuildFor/-edge-.png"; // নিজস্ব আইকন ইউজ করো
+import icon7 from "../../assets//BuildFor/-edge-.png"; // নিজস্ব আইকন ইউজ করো
+import icon8 from "../../assets//BuildFor/-edge-.png"; // নিজস্ব আইকন ইউজ করো
+import icon9 from "../../assets//BuildFor/-edge-.png"; // নিজস্ব আইকন ইউজ করো
+import icon10 from "../../assets//BuildFor/-edge-.png"; // নিজস্ব আইকন ইউজ করো
 import icon12 from "../../assets/tE16Zz9nhtx0Vm0bG7UMJonMcQg.avif"; // নিজস্ব আইকন ইউজ করো
 
 const All_chains = () => {

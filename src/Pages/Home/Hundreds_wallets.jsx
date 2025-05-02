@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import Header from '../../Components/Header';
-import vedio1 from "../../assets/keybord.mp4";
-import vedio2 from "../../assets/ifylK94PT0esgyo60E9k95VHJSU.mp4";
-import vedio3 from "../../assets/OJmUgxKZDw2rJCngrvLLwRGd0U.mp4";
-import vedio4 from "../../assets/PiAV5ldxJoY8M9O1OA5Iv9daxE.mp4";
-import vedio5 from "../../assets/keybord.mp4";
+import vedio1 from "../../assets/Hundreds_wallets/keybord.mp4";
+import vedio2 from "../../assets/Hundreds_wallets/ifylK94PT0esgyo60E9k95VHJSU.mp4";
+import vedio3 from "../../assets/Hundreds_wallets/OJmUgxKZDw2rJCngrvLLwRGd0U.mp4";
+import vedio4 from "../../assets/Hundreds_wallets/PiAV5ldxJoY8M9O1OA5Iv9daxE.mp4";
+import vedio5 from "../../assets/Hundreds_wallets/keybord.mp4";
 import Marquee from 'react-fast-marquee';
 
 export const Hundreds_wallets = () => {
