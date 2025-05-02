@@ -9,6 +9,7 @@ import Convenient_interface from "./convenient_interface";
 import Swap_Expariance from "./Swap_Expariance";
 import Your_Pokets from "./Your_Pokets";
 import Notified_Money from "./notified_Money";
+import Exclusive_drops from "./Exclusive_drops";
 
 const Home = () => {
   return (
@@ -23,6 +24,7 @@ const Home = () => {
       <Swap_Expariance></Swap_Expariance>
       <Your_Pokets></Your_Pokets>
       <Notified_Money></Notified_Money>
+      <Exclusive_drops></Exclusive_drops>
     </div>
   );
 };

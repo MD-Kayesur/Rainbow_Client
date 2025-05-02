@@ -8,7 +8,7 @@ import img5 from "../../assets/notifiedMOney/WiCqVn6By9ZXYgeKt4CfAQ9YYw.avif";
 
 const Notified_Money = () => {
   return (
-    <div className="bg-gradient-to-b from-blue-300 via-green-100 to-rose-300 p-5">
+    <div className="bg-gradient-to-b from-green-300 via-green-100 to-rose-300 p-5">
       <div className="w-11/12 mx-auto">
       <div className=" grid grid-cols-2 gap-5 justify-between items-center">
         <div className="bg-gradient-to-b from-blue-300 via-green-100 to-rose-300 p-5 rounded-3xl h-full">
