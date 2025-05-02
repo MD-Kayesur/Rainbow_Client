@@ -11,6 +11,7 @@ import Your_Pokets from "./Your_Pokets";
 import Notified_Money from "./notified_Money";
 import Exclusive_drops from "./Exclusive_drops";
 import Frequently from "./Frequently";
+import Get_started from "./Get_started";
 
 const Home = () => {
   return (
@@ -27,6 +28,7 @@ const Home = () => {
       <Notified_Money></Notified_Money>
       <Exclusive_drops></Exclusive_drops>
       <Frequently></Frequently>
+      <Get_started></Get_started>
     </div>
   );
 };
