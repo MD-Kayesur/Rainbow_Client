@@ -12,10 +12,13 @@ import Notified_Money from "./notified_Money";
 import Exclusive_drops from "./Exclusive_drops";
 import Frequently from "./Frequently";
 import Get_started from "./Get_started";
+ 
+import MouseBurst from "../../Components/MouseBurst";
 
 const Home = () => {
   return (
     <div className=" ">
+          
       <Banner></Banner>
       <RaunbowExtention></RaunbowExtention>
       <Built_for></Built_for>
@@ -29,6 +32,7 @@ const Home = () => {
       <Exclusive_drops></Exclusive_drops>
       <Frequently></Frequently>
       <Get_started></Get_started>
+     
     </div>
   );
 };

@@ -4,6 +4,7 @@ import Header from "../../Components/Header";
 // import myImage2 from '../../assets/-edge-.png'
 import myImage3 from '../../assets/BuildFor/fireFox.jpg'
 import myImage8 from '../../assets/Banner/vK8ECGL27BFN7tScchchrKWCgPA.avif'
+import { NavLink } from "react-router-dom";
  
 
 const Built_for = () => {
@@ -16,10 +17,10 @@ const Built_for = () => {
             
             </div>
             <div className=" md:flex  gap-5  items-center justify-center   "> 
-              <div className="flex items-center text-start  bg-orange-500 cursor-pointer p-3 rounded-3xl">
+              <NavLink to='/download'  className="flex items-center text-start  bg-orange-500 cursor-pointer p-3 rounded-3xl">
                 <h1 className="font-bold text-xl md:text-2xl">Download <br /> Rainbow Mobile</h1>
                 <img className="w-30" src={myImage8} alt="" />
-              </div>
+              </NavLink>
               <div>
                 <div className="flex items-center gap-5">
                     <a href="https://www.google.com/chrome/"><FaChrome className="text-5xl" ></FaChrome> </a>

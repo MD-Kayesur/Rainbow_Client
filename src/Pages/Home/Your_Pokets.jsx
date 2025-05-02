@@ -5,6 +5,7 @@ import Header from "../../Components/Header";
 // import myImage3 from '../../assets/fireFox.jpg'
 import myImage8 from '../../assets/Banner/vK8ECGL27BFN7tScchchrKWCgPA.avif';
 import myImage7 from '../../assets/Swap_Expariance/iWcULRLH3zA0SexNgScigAdo3Jg.avif';
+import { NavLink } from "react-router-dom";
 
  
 
@@ -23,10 +24,10 @@ const Your_Pokets = () => {
             
             </div>
             <div className=" md:flex  gap-5  items-center justify-center  py-5 "> 
-              <div className="flex items-center text-start  bg-orange-500 cursor-pointer p-3 rounded-3xl">
+              <NavLink to='/download'  className="flex items-center text-start  bg-orange-500 cursor-pointer p-3 rounded-3xl">
                 <h1 className="font-bold text-xl md:text-2xl">Download <br />  Rainbow Mobile</h1>
                 <img className="w-30" src={ myImage8} alt="" />
-              </div>
+              </NavLink>
               <div className="">
                 <div className="flex items-center gap-5">
                     <a href="https://www.google.com/chrome/"><FaChrome className="text-5xl" ></FaChrome> </a>

@@ -1,20 +1,24 @@
 import { FaTwitter } from "react-icons/fa";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 
 const Navbar = () => {
+
+  const location = useLocation();
+  const currentPath = location.pathname;
+
   const uiLink = (
     <>
       <li >
-        <NavLink to='/'>Home</NavLink>
+        <Link className={currentPath==='/' ? 'text-red-500' :'text-black'} to='/'>Home</Link>
       </li>
       <li >
-        <NavLink to='/getsupport'>Get Support</NavLink>
+        <Link className={currentPath==='/getsupport' ? 'text-red-500' :'text-black'} to='/getsupport'>Get Support</Link>
       </li>
       <li>
-        <NavLink to='/updates'>Updates</NavLink>
+        <Link className={currentPath==='/updates' ? 'text-red-500' :'text-black'}  to='/updates'>Updates</Link>
       </li>
       <li>
-        <NavLink to='/learn'>Learn</NavLink>
+        <Link className={currentPath==='/learn' ? 'text-red-500' :'text-black'}  to='/learn'>Learn</Link>
       </li>
       <li className="hidden md:block rounded-full">
         <a className="rounded-full"><FaTwitter className="text-3xl "></FaTwitter></a>

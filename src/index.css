@@ -1,9 +1,9 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
-a.active {
+  /* a.active {
   color: red;
-}
+} */
 .coiny-regular {
   font-family: "Coiny", system-ui;
   font-weight: 400;

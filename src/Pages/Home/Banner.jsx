@@ -56,14 +56,14 @@ const Banner = () => {
               </p>
             </div>
             <div className=" md:flex  gap-5   justify-center   ">
-              <div className="flex items-center text-start bg-orange-400  cursor-pointer p-3 rounded-3xl  ">
+              <NavLink to='/download' className="flex items-center text-start bg-orange-400  cursor-pointer p-3 rounded-3xl  ">
                 <h1 className="font-bold text-xl md:text-2xl">Download <br /> Rainbow Extension</h1>
                 <img className="w-30" src={myImage8} alt="" />
-              </div>
-              <div className="flex items-center text-start bg-purple-500 cursor-pointer p-3 rounded-3xl">
+              </NavLink>
+              <NavLink to='/download'  className="flex items-center text-start bg-purple-500 cursor-pointer p-3 rounded-3xl">
                 <h1 className="font-bold text-xl md:text-2xl">Download <br /> Rainbow Mobile</h1>
                 <img className="w-30" src={myImage8} alt="" />
-              </div>
+              </NavLink>
                
             </div>
           </div>
