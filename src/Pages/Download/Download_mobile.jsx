@@ -9,7 +9,7 @@ import img6 from "../../assets/Banner/UFvPlymoCJQRWIcq6OuiAEro.avif";
 
 const Download_mobile = () => {
   return (
-    <div className="bg-gradient-to-b from-green-200 to-red-200">
+    <div className="bg-gradient-to-b from-green-200 via-blue-300 to-green-200">
       <div className="flex w-11/12 gap-6 mx-auto items-center ">
         <div className=" flex-1/2 bg-gradient-to-b from-blue-200 to-green-200 h-screen py-7 rounded-4xl">
           <Header

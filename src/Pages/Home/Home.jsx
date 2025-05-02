@@ -10,7 +10,7 @@ import Swap_Expariance from "./Swap_Expariance";
 import Your_Pokets from "./Your_Pokets";
 import Notified_Money from "./notified_Money";
 import Exclusive_drops from "./Exclusive_drops";
-import Frequently from "./Frequently";
+import Frequently from "./Frequently/Frequently";
 import Get_started from "./Get_started";
  
 import MouseBurst from "../../Components/MouseBurst";

@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../../Components/Header";
+import Header from "../../../Components/Header";
 import { NavLink } from "react-router-dom";
 import { FaRightLeft } from "react-icons/fa6";
 import { FaArrowRight } from "react-icons/fa";
@@ -44,7 +44,7 @@ const Frequently = () => {
               support@rainbow.me.
             </div>
           </div>
-          <NavLink
+          <NavLink to='/frequently'
             className={"text-2xl font-bold flex items-center gap-2 my-3"}>
             See more FAQs <FaArrowRight></FaArrowRight>
           </NavLink>
