@@ -10,6 +10,7 @@ import Swap_Expariance from "./Swap_Expariance";
 import Your_Pokets from "./Your_Pokets";
 import Notified_Money from "./notified_Money";
 import Exclusive_drops from "./Exclusive_drops";
+import Frequently from "./Frequently";
 
 const Home = () => {
   return (
@@ -25,6 +26,7 @@ const Home = () => {
       <Your_Pokets></Your_Pokets>
       <Notified_Money></Notified_Money>
       <Exclusive_drops></Exclusive_drops>
+      <Frequently></Frequently>
     </div>
   );
 };

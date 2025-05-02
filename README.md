@@ -45,5 +45,6 @@ npm install framer-motion
 #### 4. Your_Pokets
 #### 4. Notified_Money
 #### 4. Exclusive_drops
+#### 4. Frequently
 
   
