@@ -53,4 +53,8 @@ npm install framer-motion
 #### 4. Download_Dextop
 #### 4. Download_mobile
 
+### Frequently_more pages All  Components  Name is under line by line
+#### 4. Frequently_more
+
+
   
