@@ -29,6 +29,13 @@ npm install react-fast-marquee --save
 npm install framer-motion
  
 ```
+### Scroll-based animation using deferrent component
+ #### <FadeInOnScroll > ----- :Component Name
+```bash
+ npm install react-intersection-observer
+```
+### Click animation effect add করা — ইউজার ক্লিক করলেই center থেকে image বা ইমোজি ছড়িয়ে যায়।
+ #### <MouseBurst>  ---- :Component Name
 
 
 ## Page RElated Component 
