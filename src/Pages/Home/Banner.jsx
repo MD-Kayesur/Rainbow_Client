@@ -10,6 +10,7 @@ import myImage7 from "../../assets/Banner/WdqwfLzM7511b0vTKJhyOovVw8.avif";
 import myImage8 from "../../assets/Banner/vK8ECGL27BFN7tScchchrKWCgPA.avif";
 import { Link, NavLink } from "react-router-dom";
 import Header from "../../Components/Header";
+import FadeInOnScroll from "../../Components/FadeInOnScroll ";
 const Banner = () => {
   return (
     // creat a banner with more pic as baground img
@@ -50,7 +51,9 @@ const Banner = () => {
               {/* <h1 className="md:text-7xl text-4xl mx-auto  md:w-9/12 font-bold coiny-regular">
                 Experience Crypto in Color
               </h1> */}
+              <FadeInOnScroll direction="zoom">
               <Header className='md:text-7xl text-4xl mx-auto  md:w-9/12' title={'Experience Crypto in Color'}></Header>
+              </FadeInOnScroll>
               <p className="py-6 md:text-4xl text-2xl font-bold ">
                 Fun, powerful, and secure wallets for everyday use
               </p>
