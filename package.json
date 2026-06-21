@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "tailwind:init": "tailwindcss init -p",
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "node api.js && vite",
+    "build": "node api.js && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
